@@ -1,0 +1,31 @@
+[{
+  "name": "HTC",
+  "isGood": true,
+  "price": 100,
+  "color": "black"
+},{
+  "name": "HTC",
+  "isGood": true,
+  "price": 100,
+  "color": "gray"
+},
+{
+  "name": "Asus",
+  "isGood": true,
+  "price": 1000,
+  "color": "black"
+}
+,
+{
+  "name": "Asus",
+  "isGood": true,
+  "price": 2500,
+  "color": "gray"
+}
+,
+{
+  "name": "LG",
+  "isGood": false,
+  "price": 2550,
+  "color": "pink"
+}]
