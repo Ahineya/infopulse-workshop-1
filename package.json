@@ -1,0 +1,23 @@
+{
+  "name": "workshop1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahineya/infopulse-workshop-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahineya/infopulse-workshop-1/issues"
+  },
+  "homepage": "https://github.com/Ahineya/infopulse-workshop-1#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jquery": "^2.2.0"
+  }
+}

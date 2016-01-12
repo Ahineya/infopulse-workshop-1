@@ -4,21 +4,38 @@
     <meta charset="UTF-8">
     <title>Infopulse JS workshop #1</title>
     <link rel="stylesheet" href="css/styles.css"/>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.js"></script>
+
+    <script src="js/phones.js"></script>
+    <script src="js/API.js"></script>
+    <script src="js/app.js"></script>
 </head>
 <body>
+
+<script id="phone" type="text/x-handlebars-template">
+    {{#each phones}}
+    <div class="phone">
+        <a href="#" class="thumb">
+            <img src="http://placehold.it/100" alt="phone"/>
+        </a>
+        <div class="phone-info">
+            <div class="model">{{name}}</div>
+            <div class="is-good">{{isGood}}</div>
+            <div class="price">{{price}}</div>
+            <div class="color">{{color}}</div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+
     <div class="container">
-        <div class="column left">1</div>
-        <div class="column right">
-            <div class="phone">
-                <a href="#" class="thumb">
-                    <img src="http://placehold.it/100" alt="phone"/>
-                </a>
-                <div class="phone-info">
-                    <div class="model">HTC</div>
-                    <div class="is-good">Good</div>
-                    <div class="price">1000</div>
-                </div>
-            </div>
+        <div class="column left">
+            <button id="showAll">Show All phones</button>
+            <button id="showHTC">Show HTC phones</button>
+        </div>
+        <div id="phones" class="column right">
+
         </div>
     </div>
 </body>
